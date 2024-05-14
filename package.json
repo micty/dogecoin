@@ -1,0 +1,26 @@
+{
+    "name": "dogecoin",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "本工具用来暴力破解已知钱包地址对应的私钥，可离线运行。",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "dogecoin",
+        "狗狗币",
+        "私钥",
+        "助记词"
+    ],
+    "author": "micty",
+    "email": "mictydeng@qq.com",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/micty/dogecoin.git"
+    },
+    "dependencies": {
+        "@definetool/dogecoin": "^1.0.1"
+    }
+}
